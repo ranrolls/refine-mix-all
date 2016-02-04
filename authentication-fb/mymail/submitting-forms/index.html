@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+	<title>Social Circle</title>
+
+	<!-- LOAD BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+
+	<!-- LOAD JQUERY -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<!-- LOAD ANGULAR -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+	<!-- PROCESS FORM WITH AJAX (NEW) -->
+	<script>
+
+		// define angular module/app
+		var formApp = angular.module('formApp', []);
+
+		// create angular controller and pass in $scope and $http
+		function formController($scope, $http) {
+
+			// create a blank object to hold our form information
+			// $scope will allow this to pass between controller and view
+			$scope.formData = {};
+
+			// process the form
+			$scope.processForm = function() {
+				$http({
+			        method  : 'POST',
+			        url     : 'process.php',
+			        data    : $.param($scope.formData),  // pass in data as strings
+			        headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+			    })
+
+ .success(function(data) {
+        
+   //var res= examineJSONResponse(data);
+     // alert(res); 
+                                
+          //{"success":true,"result":"Mail Send!"}
+	 console.log(data);
+
+
+if (!data.success) {
+// if not successful, bind errors to error variables
+$scope.errorfName = data.errors.fname;
+$scope.errorlName = data.errors.lname;
+$scope.errorEmail = data.errors.email;
+$scope.errorPhone = data.errors.phone;
+$scope.errorBusinessName = data.errors.business_name;
+$scope.errorWebsite = data.errors.demo_website_link;
+
+			                 
+} 
+
+else {
+
+// if successful, bind success message to message
+ 
+$scope.message = data.result;	
+ $scope.errorfName = '';
+ $scope.errorlName = '';
+ $scope.errorEmail = '';
+ $scope.errorPhone = '';
+ $scope.errorBusinessName = '';
+ $scope.errorWebsite = '';
+			                
+}
+   });
+
+   };
+
+}
+
+	</script>
+ <style>
+            .ng-valid.ng-dirty{
+                border-color: green;
+            }
+            .ng-invalid.ng-dirty{
+                border-color: red;
+            }
+        </style>
+</head>
+<!-- apply the module and controller to our body so angular is applied to that -->
+<body ng-app="formApp" ng-controller="formController">
+<div class="container">
+<div class="col-md-6 col-md-offset-3">
+
+	<!-- PAGE TITLE -->
+	<div class="page-header">
+		<h1><span class="glyphicon glyphicon-tower"></span>Social Circle E-Mailer Forms</h1>
+	</div>
+
+	<!-- SHOW ERROR/SUCCESS MESSAGES -->
+	<div id="messages" class="well" ng-show="message">{{message}}</div>
+
+	<!-- FORM -->
+	<form ng-submit="processForm()">
+		<!-- NAME -->
+		<div id="fname-group" class="form-group" ng-class="{ 'has-error' : errorfName }">
+			<label>First Name</label>
+			<input type="text" name="fname" class="form-control" placeholder="First Name" ng-model="formData.fname">
+                        <span class="help-block" ng-show="errorfName">{{ errorfName }}</span>
+		</div>
+
+                  <div id="lname-group" class="form-group" ng-class="{ 'has-error' : errorlName }">
+			<label>Last Name</label>
+			<input type="text" name="lname" class="form-control" placeholder="Last Name" ng-model="formData.lname">
+                        <span class="help-block" ng-show="errorlName">{{ errorlName }}</span>
+		</div>
+
+               <div id="email-group" class="form-group" ng-class="{ 'has-error' : errorEmail }">
+			<label>Email</label>
+			<input type="text" name="email" class="form-control" placeholder="Email" ng-model="formData.email">
+                        <span class="help-block" ng-show="errorEmail">{{ errorEmail }}</span>
+		</div>
+
+<div id="phone-group" class="form-group" ng-class="{ 'has-error' : errorPhone }">
+			<label>Phone</label>
+			<input type="text" name="phone" class="form-control" placeholder="Phone" ng-model="formData.phone">
+                        <span class="help-block" ng-show="errorPhone">{{ errorPhone }}</span>
+		</div>
+
+<div id="business_name-group" class="form-group" ng-class="{ 'has-error' : errorBusinessName }">
+			<label>Business Name</label>
+			<input type="text" name="business_name" class="form-control" placeholder="Phone" ng-model="formData.business_name">
+                        <span class="help-block" ng-show="errorBusinessName">{{ errorBusinessName}}</span>
+		</div>
+
+<div id="demo_website_link-group" class="form-group" ng-class="{ 'has-error' : errorWebsite }">
+			<label>Website</label>
+	<input type="text" name="demo_website_link" class="form-control" placeholder="Website" ng-model="formData.demo_website_link">
+                        <span class="help-block" ng-show="errorWebsite">{{ errorWebsite }}</span>
+		</div>
+          
+ 
+
+		<!-- SUBMIT BUTTON -->
+		<button type="submit" class="btn btn-success btn-lg btn-block">
+			<span class="glyphicon glyphicon-flash"></span> Send Mail!
+		</button>
+	</form>
+
+	<!-- SHOW DATA FROM INPUTS AS THEY ARE BEING TYPED
+	<pre>
+		{{ formData }}
+	</pre> -->
+
+</div>
+</div>
+</body>
+</html>

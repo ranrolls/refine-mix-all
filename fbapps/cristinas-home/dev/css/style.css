@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:none;}
+ 
+.iframe_box{ width:810px; text-align:center;}
+.bg_img { background: rgba(0, 0, 0, 0.9) url("../image/banner.jpg") no-repeat scroll left top; min-height: 735px;/* margin-top:15px;*/ }
+.main .social_text h5 { color: #fff; font-weight: 300; font-size: 14px; margin: 10px 00 30px 00px;  clear: both; text-align:left; }
+ 
+.iframe_box h3 { color: #fff; font-weight: 300; font-size: 38px; margin:30px 00 10px 00px; font-family: Bree Serif, sans-serif ; line-height: 24px;}
+.iframe_box p { color: #fff; font-weight: 300; font-size: 16px; margin: 10px 00 0px 00px; font-family:'Open Sans', sans-serif ; line-height: 24px; text-align:center; padding-bottom:20px;}
+.form_box_1 {margin: 0 auto;padding: 10px 30px 13px 26px;width: 100%; }
+.form_box { width:80%; padding: 10px 4px 15px 15px; border-radius: 5px 5px 0 0; margin: 0 auto; }
+.iframe_box h4 { text-align: left; color: #fff; font-size:16px; font-weight: normal; font-family: Bree Serif, sans-serif; }
+.iframe_box h5 { text-align: left; color: #fff; font-size:32px; font-weight: normal; font-family: Bree Serif, sans-serif; padding-bottom: 0px; line-height: 16px; }
+.form_box i { position: absolute; right:10px; z-index: 8; top: 10px; font-size: 16px;  color:#5b5b5b}
+.form_box .col-lg-5 { position: relative; padding-right:8px; padding-left:0px; }
+.form_box .col-lg-6 { position: relative;  padding-left:0px; }
+.form_box .col-lg-12 { position: relative; }
+.iframe_box h6 {opacity: 0.6; text-align: center; color: #fff; font-size:14px; background:#000;font-weight: normal; font-family: Bree Serif, sans-serif; padding-bottom: 0px; line-height: 27px; }
+.form_box label { text-align: left; color: #616161; font-size: 20px; font-weight: normal;font-family:Bree Serif, sans-serif; display: block; }
+.form_box input { border:none; border-radius: 3px; background: #ffffff; width: 100%; height: 40px; margin-bottom: 5px; color: #7e7e7e; padding-left: 10px; padding-right:35px;}
+.form_box select { border: none; border-radius: 5px; background: #fff; width:100%; height:40px; margin-bottom:5px; color: #7e7e7e; padding-left: 10px;padding-right:40px; }
+.form_box textarea{border: 1px solid #adadad; border-radius:0px;width:100%;font-family: 'Open Sans', sans-serif; height:83px !important;}
+.form_box .form_btn{background:#f23005;margin-top:10px; color:#fff; font-size: 20px; font-weight: normal; height:40px; text-align:center;padding-right:0px; font-family: Bree Serif, sans-serif ; padding-left:0px; width: 292px; border:1px solid #b12101}
+.btn input{border-radius: 0;}
+
+.bootom_go{ margin-top:300px;}
+ 
+.margin-top15 { margin-top: 15px; }
+  
+::-webkit-input-placeholder {color: #000;}
+:-moz-placeholder { /* Firefox 18- */   color:#000;  }
+::-moz-placeholder {  /* Firefox 19+ */   color: #000;  }
+:-ms-input-placeholder {     color: #000;  }
+p.sucess_mail{ font-size:12px; color:#fff;}
+#msg-div{ font-size:12px; color:#fff;} 
+
+ 
+ @media (max-width: 768px) {
+.form_box_1 { width:410px;}	 
+.form_box {   margin:0px 0 10px 0px;      }
+.iframe_box{ width:100%; } 
+.form_box{ margin-left: 96px;}
+}
+
+@media (max-width: 640px) {
+ .form_box {     margin:0px 0 0 0px; float:left; padding-left:5px; }
+ .form_box_1 { width:96%; padding: 0 4px 15px 20px;}	 
+ .bg_img { background:url(../image/banner.jpg) no-repeat left top #050203; padding-top:0px;}
+ .iframe_box h3 { margin-top:10px;}
+ .left-section{margin-top: 16px;}
+ 
+ 
+}
+@media (max-width: 640px) {
+.iframe_box p { padding-bottom: 0px;}
+.form_box{ margin-left: 60px;}
+}
+@media (max-width: 480px) {
+	.btn{padding-left: 0;}
+	.form_btn{margin-right: 30px;width: 100%;}
+	.left-section{width: 100%;}
+	.right-section{width: 100%;}
+	.form_box .form_btn {width: 337px;}
+
+}
+@media (max-width: 360px) {
+.form_box_1 h3{ font-size:28px;}
+.form_box {margin-left: 18px;}
+.form_box .form_btn {width: 242px;}
+.margin-top15 .col-xs-4{ padding-left:0px;}
+.margin-top15 .col-md-5{ padding-left:0px;}
+.social_logo{ width:100%}
+
+}
+@media (max-width: 320px) {
+	.form_box {width:300px; margin-left:5px;}
+	.form_box .form_btn{width: 275px; padding: 0;} 
+	.btn{padding-left: 0;}
+	
+}

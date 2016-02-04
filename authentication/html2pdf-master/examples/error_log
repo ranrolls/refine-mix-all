@@ -1,0 +1,1 @@
+[09-Nov-2015 08:46:22 UTC] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834

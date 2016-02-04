@@ -1,0 +1,208 @@
+<?php
+
+session_start();
+
+include_once('config.php');
+
+
+
+?>
+
+<!doctype html>
+<html lang="en" class="theme-b has-gradient has-pattern">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Social Circle - customized facebook apps & Social Media Campaigns</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no, target-densitydpi=device-dpi">
+<script src="javascript/head.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $("#submit_btn").click(function() { 
+       
+	    var proceed = true;
+        //simple validation at client's end
+        //loop through each field and we simply change border color to red for invalid fields		
+		$("#contact_form input[required=true], #contact_form textarea[required=true]").each(function(){
+			$(this).css('border-color',''); 
+			if(!$.trim($(this).val())){ //if this field is empty 
+				$(this).css('border-color','red'); //change border color to red   
+				proceed = false; //set do not proceed flag
+			}
+			//check invalid email
+			var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
+			if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+				$(this).css('border-color','red'); //change border color to red   
+				proceed = false; //set do not proceed flag				
+			}	
+		});
+       
+        if(proceed) //everything looks good! proceed...
+        {
+			//get input field values data to be sent to server
+            post_data = {
+				'user_fname'		 : $('input[name=fname]').val(), 
+				'user_lname'		 : $('input[name=lname]').val(), 
+				'user_email'	         : $('input[name=email]').val(),
+                                'user_business_name'	 : $('input[name=business_name]').val(),
+                                'user_demo_website_link' : $('input[name=demo_website_link]').val(),
+                                'user_phone'             : $('input[name=phone]').val(),
+                                'user_address'           : $('input[name=address]').val(),
+                                'user_date_of_order'     : $('input[name=date_of_order]').val()
+                                
+
+                                
+			};
+            
+ 
+ //Ajax post data to server
+
+            $.post('contact_me.php', post_data, function(response){  
+
+                   
+				if(response.type == 'error'){ //load json data from server and output message     
+					output = '<div class="error">'+response.text+'</div>';
+				}else{
+                                       
+                                    window.location.href = 'success.php'; 
+
+				    //output = '<div class="success">'+response.text+'</div>';
+					//reset values in all input fields
+					$("#contact_form  input[required=true], #contact_form textarea[required=true]").val(''); 
+					$("#contact_form #contact_body").slideUp(); //hide form after success
+				}
+		//$("#contact_form #contact_results").hide().html(output).slideDown();
+            }, 'json');
+        }
+    });
+    
+    //reset previously set border colors and hide all message on .keyup()
+    $("#contact_form  input[required=true], #contact_form textarea[required=true]").keyup(function() { 
+        $(this).css('border-color',''); 
+        $("#result").slideUp();
+    });
+});
+
+
+
+            
+</script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" media="screen" href="styles/screen.css" type="text/css" >
+<link rel="stylesheet" media="print" href="styles/print.css" type="text/css" >
+<link rel="stylesheet" type="text/css" media="print" href="styles/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css" >
+<link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css" type="text/css" />
+<link rel="icon" type="image/x-icon" href="images/favicon2.ico">
+<style type="text/css">
+#sucess_mail { color: #ff0000; margin-top: 5px; }
+button{ background: #00aae6; color:#fff !important; font-size:14px; text-transform:uppercase; width:100%; font-weight:500;} 
+button:hover{ background: #fff !important; color:#00aae6 !important;}
+</style>
+
+<!-- ---------- text editor ------------- -->
+
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="external/google-code-prettify/prettify.css" rel="stylesheet"  type="text/css"/>
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+<script src="external/jquery.hotkeys.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="external/google-code-prettify/prettify.js"></script>
+<script src="src/bootstrap-wysiwyg.js"></script>
+
+<!-- ---------- text editor ------------- -->
+</head>
+<body>
+<div id="root">
+  <header id="top">
+    <h1><a href="index.php" accesskey="h"><img src="images/logo.png" alt="logo"></a></h1>
+    <nav id="nav">
+      <ul>
+        <li class="a"><?php echo $_SESSION['username'].' '. $_SESSION['userType'];?></li>
+        <br/>
+        <br/>
+        <li><a href="logout.php?action=logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article id="welcome">
+    <div class="form_box container center-block">
+      <div class="col-lg-6 center-block " style="float:none"  id="contact_form">
+        <div class="row">
+          <div class="col-lg-3">
+          <p>Step 1</p>
+            <!--<a href="#"><input type="submit" name="submit" id="submit_btn"  value="Order Confirmation"></a>-->
+          </div>
+          <div class="col-lg-9">
+            <a href="dashboard.php"><button type="button">Order Confirmation</button></a>
+          </div>
+          <div class="clearfix"></div>
+           <div class="col-lg-12"><p>&nbsp;</p></div>
+          <div class="clearfix"></div>
+           <div class="col-lg-3">
+          <p>Step 2</p>
+            <!--<a href="#"><input type="submit" name="submit" id="submit_btn"  value="Order Confirmation"></a>-->
+          </div>
+          <div class="col-lg-9">
+            <a href="follow2_dashboard.php"><button type="button">Mock-up Approval</button></a>
+          </div> 
+
+         <h5 class="sucess_mail" id="sucess_mail"></h5>
+         <div class="clearfix"></div>
+          <div class="col-lg-12"><p>&nbsp;</p></div>
+          <div class="clearfix"></div>
+           <div class="col-lg-3">
+          <p>Step 3</p>
+            <!--<a href="#"><input type="submit" name="submit" id="submit_btn"  value="Order Confirmation"></a>-->
+          </div>
+          <div class="col-lg-9">
+             <a href="reminder_dashboard.php"><button type="button">Reminder</button></a>
+          </div> 
+
+         <h5 class="sucess_mail" id="sucess_mail"></h5>
+             
+
+         <div style="min-height:250px"></div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+ 
+
+
+  <footer id="footer">
+    <p style="margin-top:0px;">&copy; <span class="date">2015</span> Social Circle. All rights reserved. <!--<a href="./">Privacy Policy</a> <a href="./">Terms of Service</a>--></p>
+  </footer>
+</div>
+<script> head.load('javascript/tf.js','javascript/scripts.js','javascript/mobile.js')</script> 
+<script src="javascript/util.js"></script> 
+<script src="javascript/lib.js"></script> 
+<!-- 
+<script src="javascript/jquery-1.js"></script> 
+<script src="javascript/jquery.js"></script>
+<script> head.load('javascript/jquery.js','javascript/tf.js','javascript/scripts.js','javascript/mobile.js')</script>
+
+--> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65377455-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+
+<!-- ----------  text Editor ke  liiye  ----------------------- -->
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+[06-Nov-2015 10:05:27 UTC] PHP Warning:  mysql_query(): Access denied for user 'sociacirmark'@'localhost' (using password: NO) in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 149
+[06-Nov-2015 10:05:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 149
+[06-Nov-2015 10:05:27 UTC] PHP Warning:  mysql_insert_id(): Access denied for user 'sociacirmark'@'localhost' (using password: NO) in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 151
+[06-Nov-2015 10:05:27 UTC] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 151
+[06-Nov-2015 10:05:50 UTC] PHP Warning:  mysql_query(): Access denied for user 'sociacirmark'@'localhost' (using password: NO) in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 149
+[06-Nov-2015 10:05:50 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 149
+[06-Nov-2015 10:05:50 UTC] PHP Warning:  mysql_insert_id(): Access denied for user 'sociacirmark'@'localhost' (using password: NO) in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 151
+[06-Nov-2015 10:05:50 UTC] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/sociacirmark/public_html/authentication/mymail/submitting-forms/process.php on line 151

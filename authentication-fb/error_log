@@ -1,0 +1,314 @@
+[06-Nov-2015 07:28:06 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/sociacirmark/public_html/authentication/contact_me.php on line 121
+[06-Nov-2015 07:35:38 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/sociacirmark/public_html/authentication/contact_me.php on line 121
+[06-Nov-2015 07:36:36 UTC] PHP Parse error:  syntax error, unexpected 'Thank' (T_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/contact_me.php on line 121
+[06-Nov-2015 07:36:54 UTC] PHP Parse error:  syntax error, unexpected 'dashboard' (T_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/contact_me.php on line 122
+[06-Nov-2015 13:33:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sociacirmark/public_html/authentication/verify.php on line 54
+[06-Nov-2015 13:35:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sociacirmark/public_html/authentication/verify.php on line 174
+[09-Nov-2015 08:06:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sociacirmark/public_html/authentication/verify1.php on line 216
+[09-Nov-2015 00:23:15 America/Los_Angeles] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/sociacirmark/public_html/authentication/PHPMailer/_acp-ml/phpmailer/class.phpmailer.php on line 1239
+[09-Nov-2015 08:55:26 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+    [3] => td
+    [4] => p
+)
+</pre><br><br>HTML : ...rketing&lt;/a&gt;&lt;br/&gt;
+
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 08:56:20 UTC] PHP Warning:  require_once(/html2pdf-master/html2pdf.class.php): failed to open stream: No such file or directory in /home/sociacirmark/public_html/authentication/create_pdf.php on line 60
+[09-Nov-2015 08:56:20 UTC] PHP Fatal error:  require_once(): Failed opening required '/html2pdf-master/html2pdf.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sociacirmark/public_html/authentication/create_pdf.php on line 60
+[09-Nov-2015 08:56:46 UTC] PHP Warning:  require_once(/public_html/authentication/html2pdf-master/html2pdf.class.php): failed to open stream: No such file or directory in /home/sociacirmark/public_html/authentication/create_pdf.php on line 60
+[09-Nov-2015 08:56:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/public_html/authentication/html2pdf-master/html2pdf.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sociacirmark/public_html/authentication/create_pdf.php on line 60
+[09-Nov-2015 08:57:08 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+    [3] => td
+    [4] => p
+)
+</pre><br><br>HTML : ...Marketing&lt;/a&gt;&lt;br/&gt;
+
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 08:59:18 UTC] PHP Warning:  require_once(/home/sociacirmark/public_html/authentication/../html2pdf.class.php): failed to open stream: No such file or directory in /home/sociacirmark/public_html/authentication/create_pdf.php on line 59
+[09-Nov-2015 08:59:18 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sociacirmark/public_html/authentication/../html2pdf.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sociacirmark/public_html/authentication/create_pdf.php on line 59
+[09-Nov-2015 08:59:36 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+    [3] => td
+    [4] => p
+)
+</pre><br><br>HTML : ...Marketing&lt;/a&gt;&lt;br/&gt;
+
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:00:29 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+)
+</pre><br><br>HTML : ...65988 &lt;br/&gt;&lt;br/&gt;
+ 
+ 
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:00:46 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+)
+</pre><br><br>HTML : ...ne: 9654165988  
+ 
+ 
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:01:06 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php<br>Ligne : 1253<br><br>La balise <b>&lt;HTML&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>_tag_open_HTML</b> (pour l'ouverture) et <b>_tag_close_HTML</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...Phone: 9654165988  
+  &lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php on line 1253
+[09-Nov-2015 09:01:25 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php<br>Ligne : 1253<br><br>La balise <b>&lt;HTML&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>_tag_open_HTML</b> (pour l'ouverture) et <b>_tag_close_HTML</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...Phone: 9654165988  
+  &lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php on line 1253
+[09-Nov-2015 09:32:28 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => page
+)
+</pre><br><br>HTML : ...&lt;br&gt;
+    Hello PDF Generated&lt;/b&gt;
+    de &lt;br&gt;
+&lt;/page&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:32:53 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => page
+)
+</pre><br><br>HTML : .../h1&gt;
+ 
+    Hello PDF Generated&lt;/b&gt;
+   
+&lt;/page&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:33:31 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => page
+)
+</pre><br><br>HTML : .../h1&gt;
+ 
+    Hello PDF Generated&lt;/b&gt;
+   
+&lt;/page&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 09:33:56 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => page
+)
+</pre><br><br>HTML : .../h1&gt;
+ 
+    Hello PDF Generated&lt;/b&gt;
+   
+&lt;/page&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 10:15:53 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 38
+[09-Nov-2015 10:16:13 UTC] PHP Parse error:  syntax error, unexpected '$user_fname' (T_VARIABLE) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 36
+[09-Nov-2015 10:16:32 UTC] PHP Parse error:  syntax error, unexpected ''".$user_fname.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 36
+[09-Nov-2015 10:16:41 UTC] PHP Parse error:  syntax error, unexpected ''.$user_fname.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 36
+[09-Nov-2015 10:16:53 UTC] PHP Parse error:  syntax error, unexpected '$user_fname' (T_VARIABLE) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 36
+[09-Nov-2015 10:17:14 UTC] PHP Parse error:  syntax error, unexpected 'pdf' (T_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 36
+[09-Nov-2015 10:17:22 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 38
+[09-Nov-2015 10:18:39 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°4</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 119<br><br>Code HTML non valide, les balises ne sont pas fermées dans le bon ordre.<br>Etat : <pre>Array
+(
+    [0] => html
+    [1] => tbody
+    [2] => tr
+    [3] => td
+    [4] => p
+)
+</pre><br><br>HTML : ...Marketing&lt;/a&gt;&lt;br/&gt;
+
+ 		 
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 119
+[09-Nov-2015 10:19:16 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php<br>Ligne : 1253<br><br>La balise <b>&lt;HTML&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>_tag_open_HTML</b> (pour l'ouverture) et <b>_tag_close_HTML</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...d&gt;
+			&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php on line 1253
+[09-Nov-2015 10:19:44 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;html&gt;</b><br><br>HTML : ...ccess Team&lt;br/&gt;
+ &lt;br/&gt;
+
+ 		 
+ &lt;/HTML&gt;...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 10:23:33 UTC] PHP Parse error:  syntax error, unexpected ''.pdf'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:24:04 UTC] PHP Parse error:  syntax error, unexpected 'pdf' (T_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:24:13 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 63
+[09-Nov-2015 10:24:37 UTC] PHP Parse error:  syntax error, unexpected ''.$user_fname.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:25:39 UTC] PHP Parse error:  syntax error, unexpected ''.pdf'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:25:57 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°0</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php<br>Ligne : 370<br><br>The output document name "user_pdf/vishalpdf" is not a PDF name
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/html2pdf.class.php on line 370
+[09-Nov-2015 10:26:23 UTC] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:26:34 UTC] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:26:47 UTC] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:27:10 UTC] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:27:29 UTC] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:27:50 UTC] PHP Parse error:  syntax error, unexpected ''.pdf'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication/create_pdf.php on line 61
+[09-Nov-2015 10:35:31 UTC] PHP Parse error:  syntax error, unexpected 's' (T_STRING) in /home/sociacirmark/public_html/authentication/create_pdf.php on line 76
+[09-Nov-2015 03:00:22 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:25 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:27 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:27 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:27 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:28 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:30 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:00:46 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:03:10 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 03:03:48 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; google...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 11:09:02 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; www.go...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 11:10:15 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; www.go...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 11:10:46 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; www.go...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 11:12:11 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; www.go...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 11:12:15 UTC] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°3</span><br>Fichier : /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php<br>Ligne : 117<br><br>Code HTML non valide, une balise est fermée en trop : <b>&lt;b&gt;</b><br><br>HTML : .../&gt;&lt;br/&gt;
+
+&lt;b&gt;Business Name:&lt;/b&gt;&lt;/b&gt; Test &lt;br/&gt; 
+&lt;b&gt;Website :&lt;/b&gt; www.go...
+  thrown in /home/sociacirmark/public_html/authentication/html2pdf-master/_class/parsingHtml.class.php on line 117
+[09-Nov-2015 05:58:13 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 05:58:17 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 05:58:33 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 06:02:18 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 06:07:22 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 06:07:44 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 06:11:28 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 14:17:42 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/sociacirmark/public_html/authentication/contact_me.php on line 37
+[09-Nov-2015 14:19:28 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sociacirmark/public_html/authentication/contact_me.php on line 133
+[09-Nov-2015 06:19:44 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 06:23:50 America/Los_Angeles] PHP Fatal error:  Call to undefined function imagecreatefrompng() in /home/sociacirmark/public_html/authentication/html2pdf-master/_tcpdf_5.0.002/tcpdf.php on line 5834
+[09-Nov-2015 22:38:58 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 138
+[09-Nov-2015 22:38:58 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 250
+[09-Nov-2015 22:39:01 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 138
+[09-Nov-2015 22:39:01 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 250
+[09-Nov-2015 22:39:39 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 138
+[09-Nov-2015 22:39:39 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 250
+[09-Nov-2015 22:44:08 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 254
+[09-Nov-2015 22:46:22 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 254
+[09-Nov-2015 22:46:22 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 254
+[09-Nov-2015 22:53:24 America/Los_Angeles] PHP Warning:  implode(): Invalid arguments passed in /home/sociacirmark/public_html/authentication/contact_me.php on line 257
+[13-Nov-2015 06:06:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/sociacirmark/public_html/authentication-fb/contact_me.php on line 202
+[13-Nov-2015 06:07:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/sociacirmark/public_html/authentication-fb/contact_me.php on line 202
+[16-Dec-2015 04:07:34 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°6</span><br>Fichier : /home/sociacirmark/public_html/authentication-fb/html2pdf-master/html2pdf.class.php<br>Ligne : 1321<br><br>Impossible de charger l'image <b>http://socialcircle.marketing/authentication-fb/user_pdf/logo.jpg</b>
+  thrown in /home/sociacirmark/public_html/authentication-fb/html2pdf-master/html2pdf.class.php on line 1321
+[16-Dec-2015 04:07:42 America/Los_Angeles] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°6</span><br>Fichier : /home/sociacirmark/public_html/authentication-fb/html2pdf-master/html2pdf.class.php<br>Ligne : 1321<br><br>Impossible de charger l'image <b>http://socialcircle.marketing/authentication-fb/user_pdf/logo.jpg</b>
+  thrown in /home/sociacirmark/public_html/authentication-fb/html2pdf-master/html2pdf.class.php on line 1321
+[21-Dec-2015 02:26:33 America/Los_Angeles] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/sociacirmark/public_html/authentication-fb/dashboard.php on line 152
+[21-Dec-2015 11:02:46 UTC] PHP Parse error:  syntax error, unexpected 'user_authentication_fb_details' (T_STRING), expecting ',' or ';' in /home/sociacirmark/public_html/authentication-fb/follow_fb_dashboard.php on line 12
+[21-Dec-2015 03:50:38 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 03:50:38 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 03:50:38 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 03:51:03 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 03:51:03 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 03:51:03 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:08:06 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Connection timed out) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:08:36 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Connection timed out) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:09:36 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:09:36 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:09:36 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:10:20 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Connection timed out) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[21-Dec-2015 05:10:42 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Connection timed out) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 19:50:02 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 19:50:02 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 19:50:02 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 19:50:13 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Connection timed out) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:28:52 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:28:52 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:28:52 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:01 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:01 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:01 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:34 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:34 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:29:34 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:30:54 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:30:54 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:30:54 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:36:24 America/Los_Angeles] PHP Warning:  fsockopen(): SSL: crypto enabling timeout in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:36:24 America/Los_Angeles] PHP Warning:  fsockopen(): Failed to enable crypto in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122
+[22-Dec-2015 20:36:24 America/Los_Angeles] PHP Warning:  fsockopen(): unable to connect to ssl://secure.emailsrvr.com:465 (Unknown error) in /home/sociacirmark/public_html/authentication-fb/PHPMailer/_acp-ml/phpmailer/class.smtp.php on line 122

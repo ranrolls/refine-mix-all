@@ -1,0 +1,11 @@
+
+# BEGIN EnvatoBackup
+# This .htaccess file ensures that other people cannot download your backup files.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} !key=8464b3cbbfc9057061cfc9e7fdb251de
+RewriteRule (.*) - [F]
+</IfModule>
+
+# END EnvatoBackup
